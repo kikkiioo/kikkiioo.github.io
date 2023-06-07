@@ -12,9 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
         if (emailValue === '' || passwordValue === '') {
             alert('Aizpildiet visus nepieciešamos laukus!');
         } else {
-            // Perform login processing here
-
-            // Redirect to profile.html after successful login
             window.location.href = 'profile.html';
         }
     });

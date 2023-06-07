@@ -6,6 +6,7 @@
 
 .index-header {
     position: fixed;
+    background-color: white;
     top: 0;
     left: 0;
     width: 100%;
@@ -14,6 +15,8 @@
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+    height: 20%;
+    overflow: hidden;
 }
 
 .profile-header {
@@ -28,12 +31,12 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    overflow: hidden;
-    height: 180px;
+    height: 20%;
 }
 
 .reg-header {
-    position: absolute;
+    position: fixed;
+    background-color: white;
     top: 0;
     left: 0;
     width: 100%;
@@ -42,6 +45,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+    height: 20%;
 }
 
 .img-fluid {
@@ -115,9 +119,13 @@
 
 .wrapper {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    height: -webkit-fill-available;
+    overflow-y: auto;
 }
 
 .input-box-password {
@@ -270,11 +278,11 @@ footer {
     align-items: center;
     position: fixed;
     bottom: 0px;
-    height: 250px;
     left: 0px;
     right: 0px;
     padding: 5%;
     overflow: hidden;
+    height: 25%;
 }
 
 .footer div {
@@ -380,7 +388,6 @@ footer .col-4 h3 {
 .wrapper-registration {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     overflow-y: auto;
     top: 0;
@@ -588,8 +595,25 @@ footer .col-4 h3 {
     overflow: auto;
 }
 
+.scroll-viewer-reg {
+    overflow: auto;
+}
+
 .column-pic-requirments p {
     margin-bottom: 10px;
+}
+
+.reg-body {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    right: 0px;
+    overflow: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .prof-body {
@@ -604,7 +628,6 @@ footer .col-4 h3 {
     margin: 0;
     padding: 0;
     padding-bottom: 250px;
-    /* Adjust the value as needed */
     box-sizing: border-box;
 }
 
