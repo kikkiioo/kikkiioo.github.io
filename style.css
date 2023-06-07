@@ -23,7 +23,7 @@
     position: fixed;
     background-color: white;
     width: 100%;
-    padding: 20px 100px;
+    padding: 0 20px 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +31,6 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    height: 20%;
 }
 
 .reg-header {
@@ -298,7 +297,7 @@ footer {
 .list a {
     display: block;
     color: #fff;
-    margin-top: 25px;
+    margin-top: 10px;
     text-decoration: none;
     white-space: nowrap;
 }
@@ -311,6 +310,7 @@ footer {
     font-size: 20px;
     color: #fff;
     flex-direction: column;
+    margin-bottom: 5px;
 }
 
 .info-list a {
@@ -329,7 +329,7 @@ footer .col-1,
 footer .col-2,
 footer .col-3,
 footer .col-4 {
-    flex-grow: 1;
+    flex-basis: 25%;
     text-align: left;
 }
 
@@ -360,7 +360,8 @@ footer h3 {
 }
 
 footer p {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     font-size: 14px;
 }
 
@@ -481,7 +482,7 @@ footer .col-4 h3 {
 .horizontal-line {
     border: none;
     height: 3px;
-    margin-top: 100px;
+    position: relative;
     background-color: #00644C;
     width: 100%;
 }
